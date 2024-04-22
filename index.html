@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script/script.js" defer></script><!--para linkear javaScript cuando termine con html-->
+    <title>Pagina web junior</title>
+</head>
+
+<body>
+    <header>
+        <nav class="Navegador__negro" id="Navegador__negro">
+            <div class="navegador__container" id="navegador__container">
+                <p class="navegador__logo" id="navegador__logo">master</p>
+                <div class="barra__menu__navegador" id="barra__menu__navegador">
+                    <i class="fa-regular fa-x header__botonCerrar" id="botonCerrar"></i>
+
+                    <div class="menu" id="menu">
+                        <ul class="menu__lista" id="menu__lista">
+                            <li class="collection" id="collection">Collection
+                                <ul class="collection__opciones">
+                                    <li class="opciones__de__collection recoger">
+                                        Furniture
+                                        <img src="./img/sofa_blanco.png" alt="Imagen de Furniture"
+                                            class="imagen_furniture">
+                                    </li>
+                                    <li class="opciones__de__collection recoger">Lighting</li>
+                                    <li class="opciones__de__collection recoger">Accesories</li>
+                                </ul>
+                            </li>
+                            <li class='Mas__opciones__menu__lista'>Desing</li>
+                            <li class='Mas__opciones__menu__lista'>Craftmanship</li>
+                            <li class='Mas__opciones__menu__lista'>ethics</li>
+                        </ul>
+                    </div>
+                    <ul class="opciones__info">
+                        <li class="opciones__info__lista">
+                            <ul class="opciones__info__sublista">
+                                <li class="lista__info">abaut</li>
+                                <li class="lista__info">Contact</li>
+                                <li class="lista__info">Dealer</li>
+                            </ul>
+                        </li>
+                        <li class="opciones__info__lista">
+                            <ul class="opciones__info__sublista">
+                                <li class="lista__info">News</li>
+                                <li class="lista__info">Care</li>
+                                <li class="lista__info">Press</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <i class="fa-solid fa-bars header__botonAbrir" id="botonAbrir"></i><!-- Icono de hamburguesa -->
+
+        <div class="seccion__articulo container__animacionEntrada container__transicion scroll-animation">
+            <div class="texto__articulo__container">
+                <h1 class="h1-desaparece">Michael W.Dreeben</h1>
+                <h2 class="h2-desaparece">Shell Dining Chair</h2>
+                <p class="p-desaparece">lorem ipsem dolor sit amet.consectetur adispisicing elit.
+                    Est aperiam quos totam blanditiis sapient sit, quasi non
+                    excepturi architecto dolorem?
+                </p>
+                <button type="button" class="boton__mantiene">Product Details</button>
+            </div>
+            <img src="./img/silla_negra.png" alt="silla negra" class="img" id="articleImage1">
+        </div>
+
+        <div class="seccion__articulo2 container__elemento2--oculto container__animacionSalida container__transicion scroll-animation">
+            <div class="texto__articulo__container2">
+                <h1 class="h1-desaparece2">Michael W.Dreeben</h1>
+                <h2 class="h2-desaparece2">Shell Dining Chair</h2>
+                <p class="p-desaparece2">lorem ipsem dolor sit amet.consectetur adispisicing elit.
+                    Est aperiam quos totam blanditiis sapient sit, quasi non
+                    excepturi architecto dolorem?
+                </p>
+                <button type="button" class="boton__mantiene2">Product Details</button>
+            </div>
+            <img src="./img/mesa_negra.png" alt="mesa negra" class="img2" id="articleImage2">
+        </div>
+
+        <div class="botones__finales">
+            <button class="boton__animacion__final" type="button">
+                <span class="texto__boton__final">01 <br>shell Dinin chair</span>
+            </button>
+            <button class="boton__animacion__final" type="button">
+                <span class="texto__boton__final">02 <br>Dunes anthrazite black</span>
+            </button>
+        </div>
+
+    </header>
+
+</body>
+
+</html>
